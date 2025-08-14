@@ -368,8 +368,6 @@ face-morphing-stylegan/
 
 ## 🎓 Academic Context
 
-This project was developed as Homework 3 for the **Deep Learning (BLG 561E)** course at Istanbul Technical University, taught in Spring 2025.
-
 ### Key Contributions
 
 1. **Systematic Face Generation Pipeline**: Optimized seed selection strategies for consistent high-quality outputs
