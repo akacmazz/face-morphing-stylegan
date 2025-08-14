@@ -242,12 +242,12 @@ The following faces were generated using carefully selected seeds, demonstrating
 
 | Seed 1337 | Seed 2024 | Seed 555 |
 |:---------:|:---------:|:--------:|
-| ![Seed 1337](docs/images/face_sample_1.png) | ![Seed 2024](docs/images/face_sample_2.png) | ![Seed 555](docs/images/face_sample_3.png) |
+| ![Seed 1337](docs/images/face_sample_2.png | ![Seed 2024](docs/images/face_sample_3.png) | ![Seed 555](docs/images/face_sample_4.png) |
 | Young adult male with glasses | Young female child | Middle-aged male |
 
 | Seed 1111 | Seed 777 | Seed 2000 |
 |:---------:|:---------:|:---------:|
-| ![Seed 1111](docs/images/face_sample_4.png) | ![Seed 777](docs/images/face_sample_5.png) | ![Seed 2000](docs/images/face_sample_6.png) |
+| ![Seed 1111](docs/images/face_sample_5.png) | ![Seed 777](docs/images/face_sample_5.png) | ![Seed 2000](docs/images/face_F_seed_2000.png) |
 | Young adult female | Adult female with blonde hair | Adult male with beard |
 
 </div>
