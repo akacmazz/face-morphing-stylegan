@@ -320,19 +320,6 @@ This project was developed as Homework 3 for the **Deep Learning (BLG 561E)** co
 3. **Real Image Integration**: Complete PSPNet implementation achieving industry-standard results
 4. **Comprehensive Framework**: Unified system for both synthetic and real face processing
 
-## 📚 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{kacmaz2025facemorphing,
-  title={Advanced Face Generation and Morphing with StyleGAN3 and PSPNet},
-  author={Kaçmaz, Ahmet},
-  year={2025},
-  school={Istanbul Technical University},
-  course={BLG 561E - Deep Learning}
-}
-```
 
 ## 📄 License
 
@@ -342,18 +329,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [NVIDIA StyleGAN3](https://github.com/NVlabs/stylegan3) for the generative models
 - [Pixel2Style2Pixel](https://github.com/eladrich/pixel2style2pixel) for PSPNet implementation
-- Istanbul Technical University for academic support
-- Course instructor for guidance and feedback
 
 ## 📧 Contact
 
-Ahmet Kaçmaz - Istanbul Technical University
-
+Ahmet Kaçmaz 
 For questions or collaborations, please open an issue on this repository.
 
 ---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20with-❤️-red.svg">
-  <img src="https://img.shields.io/badge/Istanbul%20Technical%20University-1773-blue.svg">
 </p>
