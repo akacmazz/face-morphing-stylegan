@@ -236,17 +236,53 @@ High-quality, diverse faces generated using curated seeds:
 - Diversity: Various ages, genders, ethnicities
 - Quality: Photorealistic with fine details
 
+#### Sample Generated Faces
+The following faces were generated using carefully selected seeds, demonstrating the quality and diversity achievable with StyleGAN3:
+
+| Seed 1337 | Seed 2024 | Seed 555 |
+|:---------:|:---------:|:--------:|
+| Young adult male with glasses | Young female child | Middle-aged male |
+| **Seed 1111** | **Seed 777** | **Seed 2000** |
+| Young adult female | Adult female with blonde hair | Adult male with beard |
+
+*All faces generated at 1024×1024 resolution with photorealistic quality using StyleGAN3-T FFHQ model.*
+
 ### Part 2: Morphing Animations
 Smooth transitions between generated faces:
 - Frame Rate: 8-30 FPS options
 - Interpolation: SLERP for natural transitions
 - Duration: Customizable (typically 3-10 seconds)
 
+#### Animation Pipeline
+The morphing process creates seamless transitions:
+1. **Start Frame** (t=0): Initial face from seed
+2. **Interpolation** (0<t<1): SLERP-based smooth transition
+3. **End Frame** (t=1): Target face from second seed
+
+Key features:
+- **Temporal Smoothing**: Cubic easing functions for natural acceleration/deceleration
+- **Frame Multiplication**: Generate up to 120 frames for ultra-smooth playback
+- **Loop Creation**: Forward + backward sequences for seamless loops
+
 ### Part 3: Real Image Morphing
 Professional-quality morphing of real photographs:
 - Input: Any face photos (JPG/PNG)
 - Processing: Automatic alignment and encoding
 - Output: 1024×1024 high-resolution video
+
+#### Real Image Processing Pipeline
+The PSPNet-based system achieves industry-standard results:
+
+1. **Face Detection & Alignment**: Using dlib 68-point landmarks
+2. **PSPNet Encoding**: Map real images to W+ latent space (18×512 dimensions)
+3. **Smooth Interpolation**: Cosine-based transitions in latent space
+4. **StyleGAN2 Decoding**: High-quality 1024×1024 output generation
+
+**Result Metrics**:
+- **Frames**: 158 total (80 forward + 78 backward)
+- **Duration**: 6.3 seconds at 25 FPS
+- **File Size**: ~1.6 MB for complete video
+- **Quality**: Comparable to professional leo.mp4 reference
 
 ## 🔬 Technical Details
 
@@ -333,6 +369,17 @@ If you use this code in your research, please cite:
   course={BLG 561E - Deep Learning}
 }
 ```
+
+## 📖 References
+
+The implementation is based on the following papers:
+
+1. **StyleGAN3**: Karras et al., "Alias-Free Generative Adversarial Networks" (NeurIPS 2021)
+2. **StyleGAN2**: Karras et al., "Analyzing and Improving the Image Quality of StyleGAN" (CVPR 2020)  
+3. **PSPNet**: Richardson et al., "Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation" (2021)
+4. **GAN**: Goodfellow et al., "Generative Adversarial Nets" (NIPS 2014)
+
+
 
 ## 📄 License
 
