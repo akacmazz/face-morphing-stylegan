@@ -1,0 +1,128 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch Models (large files)
+models/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+pretrained_models/
+checkpoints/
+
+# Face Landmarks Model
+*.dat
+*.dat.bz2
+shape_predictor_68_face_landmarks.dat
+
+# Output Files
+output/
+generated/
+results/
+*.mp4
+*.gif
+*.avi
+*.mov
+
+# Images (keep only samples)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+!docs/images/*
+!examples/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Large Data Files
+data/
+datasets/
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Documentation Build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Package Files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Custom
+workspace/
+experiments/
+scratch/
