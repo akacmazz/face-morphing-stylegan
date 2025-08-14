@@ -247,7 +247,7 @@ The following faces were generated using carefully selected seeds, demonstrating
 
 | Seed 1111 | Seed 777 | Seed 2000 |
 |:---------:|:---------:|:---------:|
-| ![Seed 1111](docs/images/face_sample_5.png) | ![Seed 777](docs/images/face_sample_5.png) | ![Seed 2000](docs/images/face_F_seed_2000.png) |
+| ![Seed 1111](docs/images/face_sample_5.png) | ![Seed 777](docs/images/face_sample_6.png) | ![Seed 2000](docs/images/face_F_seed_2000.png) |
 | Young adult female | Adult female with blonde hair | Adult male with beard |
 
 </div>
@@ -294,7 +294,7 @@ The PSPNet-based system achieves industry-standard results:
 
 | Input Images | Morphing Process |
 |:------------:|:----------------:|
-| ![Real Image Morphing](docs/images/morph_sample_1.png) | ![Morphing Process](docs/images/morph_sample_2.png) |
+| ![Real Image Morphing](docs/images/rdj.jpg) | ![Morphing Process](docs/images/morph_sample_2.png) |
 | Original celebrity photos | Smooth W+ latent space transition |
 
 </div>
