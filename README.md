@@ -1,6 +1,6 @@
 # 🎭 Advanced Face Generation & Morphing with StyleGAN3 and PSPNet
 
-A comprehensive implementation of state-of-the-art face generation, animation, and real image morphing techniques using deep learning models. This project was developed as part of the Deep Learning course (BLG 561E) at Istanbul Technical University.
+A comprehensive implementation of state-of-the-art face generation, animation, and real image morphing techniques using deep learning models. 
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)](https://pytorch.org/)
