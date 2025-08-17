@@ -17,7 +17,6 @@ A comprehensive implementation of state-of-the-art face generation, animation, a
 - [Results](#results)
 - [Technical Details](#technical-details)
 - [Project Structure](#project-structure)
-- [Academic Context](#academic-context)
 - [License](#license)
 
 ## 🎯 Overview
